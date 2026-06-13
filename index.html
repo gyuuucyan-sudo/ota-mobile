@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OTA Reply Tool</title>
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<div class="container">
+
+    <div class="header">
+        OTA Reply Tool
+    </div>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="搜索问题，例如：热水、WiFi、电梯"
+        />
+
+        <button id="clearBtn">
+            ×
+        </button>
+    </div>
+
+    <div id="searchResults"></div>
+
+    <div id="resultArea">
+
+        <div class="section internal-box">
+            <div class="title">
+                内部备注
+            </div>
+            <div id="internalReply">
+                请搜索内容
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="reply-header">
+                <span>🇯🇵 日语</span>
+                <button class="copy-btn" data-copy="jaReply">
+                    复制
+                </button>
+            </div>
+
+            <div id="jaReply" class="reply-box"></div>
+        </div>
+
+        <div class="section">
+            <div class="reply-header">
+                <span>🇺🇸 英语</span>
+                <button class="copy-btn" data-copy="enReply">
+                    复制
+                </button>
+            </div>
+
+            <div id="enReply" class="reply-box"></div>
+        </div>
+
+        <div class="section">
+            <div class="reply-header">
+                <span>🇨🇳 中文</span>
+                <button class="copy-btn" data-copy="zhReply">
+                    复制
+                </button>
+            </div>
+
+            <div id="zhReply" class="reply-box"></div>
+        </div>
+
+    </div>
+</div>
+
+<script src="../replyRules.js"></script>
+<script src="./app.js"></script>
+
+</body>
+</html>

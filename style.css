@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.header {
+    background: #ff5a5f;
+    color: white;
+    padding: 14px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.search-box {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 12px;
+}
+
+#searchInput {
+    flex: 1;
+    height: 44px;
+    padding: 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#clearBtn {
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background: #e5e7eb;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.result-btn {
+    width: 100%;
+    text-align: left;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.result-btn span {
+    display: block;
+    color: #666;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.section {
+    background: white;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #e5e5e5;
+}
+
+.internal-box {
+    background: #fff7e6;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.reply-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.copy-btn {
+    border: none;
+    border-radius: 8px;
+    background: #ff5a5f;
+    color: white;
+    padding: 7px 12px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.reply-box {
+    white-space: pre-wrap;
+    line-height: 1.55;
+    font-size: 14px;
+}
+
+.empty {
+    text-align: center;
+    color: #888;
+    padding: 20px;
+}
