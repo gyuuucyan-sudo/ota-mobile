@@ -61,9 +61,9 @@
                     "ゴミどこ"
                 ],
                 reply: {
-                    ja: "滞在中の室内清掃サービスはございません。\n\n恐れ入りますが、足立区の分別ルールに従ってゴミの分別をお願いいたします。\n\n・可燃ゴミ（燃えるゴミ）\n・不燃ゴミ（燃えないゴミ）\n・ペットボトル\n・缶類\n\n分別後、1階のゴミ箱へ入れ、フタを閉めてください。",
-                    en: "There is no in-room cleaning service during your stay.\n\nPlease separate your trash according to Adachi Ward rules:\n\n• Burnable trash\n• Non-burnable trash\n• Plastic bottles (PET bottles)\n• Cans\n\nAfter separating, please place the trash in the bins on the 1st floor and close the lid.",
-                    zh: "入住期间不提供入室清洁服务。\n\n麻烦按照足立区垃圾分类规则进行分类：\n\n・可燃垃圾\n・不可燃垃圾\n・塑料瓶（PET）\n・易拉罐\n\n分类后请放入一楼垃圾箱内，并盖好盖子。"
+                    ja: "滞在中の室内清掃サービスはございません。\n\n恐れ入りますが、足立区の分別ルールに従ってゴミの分別をお願いいたします。\n\nゴミは、プラスチックごみ、可燃ごみ、瓶、缶、ペットボトルに分けていただきますようお願いいたします。\n\n分別後、1階のゴミ箱へ入れ、フタを閉めてください。",
+                    en: "There is no in-room cleaning service during your stay.\n\nPlease separate your trash according to Adachi Ward rules:\n\n• Burnable trash\n• Non-burnable trash\n• Plastic bottles (PET bottles)\n• Cans\n• Glass bottles\n\nAfter separating, please place the trash in the bins on the 1st floor and close the lid.",
+                    zh: "入住期间不提供入室清洁服务。\n\n麻烦按照垃圾分类规则，分成5类：\n\n・可燃垃圾（厨余，纸袋子等）\n・塑料垃圾（食品塑料包装袋等）\n・玻璃瓶\n・塑料瓶（PET）\n・易拉罐\n\n分类后请放入一楼垃圾箱内，并盖好盖子。"
                 },
                 internalNote: []
             },
